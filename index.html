@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    
+</head> 
+<body>
+    <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+    <div class="sidebar" id="sidebar">
+        <div class="close-menu" onclick=" closeSidebar()">
+            <i class="fa-solid fa-xmark"  ></i>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-house menu-icon"></i>
+            <a href="./page/home.html" class="menu-text">Home</a>
+        </div>
+
+        <div class="menu-item">
+            
+            <i class="fa-regular fa-user menu-icon"></i>
+            <a href="./page/about.html" class="menu-text">About</a>
+        </div>
+
+        <div class="menu-item">
+            <i class="fa-solid fa-taxi menu-icon"></i>
+            <a href="./page/sevice.html" class="menu-text">Service</a>
+        </div>
+
+        <div class="menu-item">
+            
+            <i class="fa-regular fa-address-book menu-icon"></i>
+            <a href="./page/contact.html" class="menu-text">Contact</a>
+        </div>
+
+        <div class="menu-item">
+            <i class="fa-solid fa-right-to-bracket menu-icon"></i>
+            <a href="./page/login.html" class="menu-text">Login</a>
+        </div>
+
+        
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
